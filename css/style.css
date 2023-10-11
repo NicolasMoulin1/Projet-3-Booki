@@ -1,4 +1,5 @@
-/*??????????????????????????????????????*/
+/*Componant*/
+
 .fa-solid {
     padding-right: 0px;
     color: var(--main-color);
@@ -57,8 +58,6 @@ a {
     --filter-bg-color: #DEEBFF;
 }
 
-
-/*????????????????????????????????????????????*/
 /****** General ***********/
 body {
     display: flex;
@@ -74,6 +73,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+   /****Header****/
 
 header {
     display: flex;
@@ -112,6 +112,8 @@ main {
     gap: 35px;
 }
 
+/****Section recherche + filter + info****/
+
 .info-group {
     display: flex;
     flex-direction: column;
@@ -127,6 +129,9 @@ main {
 .headline p {
     margin: 0;
 }
+
+
+/****Button recherche****/
 
 .search-bar {
     display: flex;
@@ -187,6 +192,8 @@ form {
     display: none;
 }
 
+/****Filter****/
+
 .filter-bar {
     display: flex;
     align-items: center;
@@ -220,6 +227,8 @@ form {
     background: var(--filter-bg-color);
     cursor: pointer;
 }
+
+/****Info****/
 
 .info-bar {
     display: flex;
@@ -397,6 +406,8 @@ form {
     margin-left: 15px;
 }
 
+/****Footer****/
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -477,6 +488,7 @@ footer {
     }
 
     /* Modifie du titre et du subtitle*/
+
     .populaires-cards .supprimer {
         display: none;
     }
